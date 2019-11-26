@@ -1,0 +1,84 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e7c399cca90063e8d1ef39cc63eda49",
+    "packages": [
+        {
+            "name": "horttcore/wp-assets",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Horttcore/wp-assets.git",
+                "reference": "7c95ef12da936752e98443a3d6bc384116920a8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Horttcore/wp-assets/zipball/7c95ef12da936752e98443a3d6bc384116920a8f",
+                "reference": "7c95ef12da936752e98443a3d6bc384116920a8f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Horttcore\\Assets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralf Hortt",
+                    "email": "me@horttcore.de"
+                }
+            ],
+            "description": "A helper package for working with the WordPress assets",
+            "time": "2019-11-04T21:56:02+00:00"
+        },
+        {
+            "name": "horttcore/wp-plugin",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Horttcore/wp-plugin.git",
+                "reference": "e46280beadd856d5f9515a62f6470908f0592b58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Horttcore/wp-plugin/zipball/e46280beadd856d5f9515a62f6470908f0592b58",
+                "reference": "e46280beadd856d5f9515a62f6470908f0592b58",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Horttcore\\Plugin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralf Hortt",
+                    "email": "me@horttcore.de"
+                }
+            ],
+            "description": "A WordPress plugin helper",
+            "time": "2019-01-16T11:00:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wordpress-client-plugin-boilerplate",
+  "description": "A WordPress Client Plugin Boilerplate",
+  "main": "",
+  "authors": ["Ralf Hortt"],
+  "license": "GPLv2 or later",
+  "homepage": "https://github.com/Horttcore/WordPress-Client-Plugin-Boilerplate",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
+  "devDependencies": {}
+}
