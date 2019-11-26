@@ -1,23 +1,23 @@
 {
-    "name": "ralfhortt/wordpress-plugin-boilerplate",
-    "description": "A WordPress Plugin Boilerplate",
-    "type": "wp-plugin",
-    "authors": [
-        {
-            "name": "Ralf Hortt",
-            "email": "me@horttcore.de"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "RalfHortt\\WordPressPluginBoilerplate\\": "src/"
-        },
-        "files": [
-            "inc/functions.php"
-        ]
-    },
-    "require": {
-        "horttcore/wp-plugin": "^1.0",
-        "horttcore/wp-assets": "^1.1"
+  "name": "ralfhortt/wordpress-client-plugin-boilerplate",
+  "description": "A WordPress Client Plugin Boilerplate",
+  "type": "wp-plugin",
+  "authors": [
+    {
+      "name": "Ralf Hortt",
+      "email": "me@horttcore.de"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RalfHortt\\WordPressClientPluginBoilerplate\\": "src/"
+    },
+    "files": [
+      "inc/functions.php"
+    ]
+  },
+  "require": {
+    "horttcore/wp-plugin": "^1.0",
+    "horttcore/wp-assets": "^1.1"
+  }
 }

@@ -9,10 +9,10 @@
  * Domain Path:     /languages
  * Version:         1.0
  *
- * @package         RalfHortt/ClientPlugin
+ * @package         RalfHortt/WordPressClientPluginBoilerplate
  */
 
-namespace RalfHortt\ClientPlugin;
+namespace RalfHortt\WordPressClientPluginBoilerplate;
 
 use Horttcore\Plugin\PluginFactory;
 use Horttcore\Assets\EditorScript;
