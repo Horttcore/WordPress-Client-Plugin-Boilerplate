@@ -4,7 +4,7 @@ A WordPress Plugin Boilerplate
 
 ## Installation
 
-`$ composer create-project ralfhortt/wordpress-plugin-boilerplate my-plugin`
+`$ composer create-project ralfhortt/wordpress-client-plugin-boilerplate my-plugin`
 
 Edit the plugin header in `plugin.php`
 
