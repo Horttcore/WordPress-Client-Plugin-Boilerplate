@@ -7,14 +7,15 @@
  * Author URI:      https://horttcore.de
  * Text Domain:     wordpress-client-plugin-boilerplate
  * Domain Path:     /languages
- * Version:         1.0
+ * Version:         2.0
  *
- * @package         RalfHortt/WordPressClientPluginBoilerplate
+ * @package RalfHortt/WordPressClientPluginBoilerplate
  */
 
 namespace RalfHortt\WordPressClientPluginBoilerplate;
 
-use Horttcore\Plugin\PluginFactory;
+use RalfHortt\Plugin\PluginFactory;
+use RalfHortt\TranslatorService\Translator;
 use Horttcore\Assets\EditorScript;
 
 // ------------------------------------------------------------------------------
@@ -37,7 +38,6 @@ endif;
 // Bootstrap
 // ------------------------------------------------------------------------------
 PluginFactory::create()
-    ->addTranslation('wordpress-client-plugin-boilerplate', dirname(plugin_basename(__FILE__)).'/languages/')
+    ->addService(Translator::class, 'wordpress-client-plugin-boilerplate', dirname(plugin_basename(__FILE__)).'/languages/')
+    ->addService(EditorScript::class, 'wordpress-client-plugin-boilerplate', plugins_url('/dist/js/wordpress-client-plugin-boilerplate.js', __FILE__), [], true, true)
     ->boot();
-
-(new EditorScript('wordpress-client-plugin-boilerplate', plugins_url('/dist/js/wordpress-client-plugin-boilerplate.js', __FILE__), [], 'true'))->register();
