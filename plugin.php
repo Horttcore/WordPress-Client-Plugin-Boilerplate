@@ -39,5 +39,5 @@ endif;
 // ------------------------------------------------------------------------------
 PluginFactory::create()
     ->addService(Translator::class, 'wordpress-client-plugin-boilerplate', dirname(plugin_basename(__FILE__)).'/languages/')
-    ->addService(EditorScript::class, 'wordpress-client-plugin-boilerplate', plugins_url('/dist/js/wordpress-client-plugin-boilerplate.js', __FILE__), [], true, true)
+    ->addService(EditorScript::class, 'wordpress-client-plugin-boilerplate', plugins_url('/dist/js/wordpress-client-plugin-boilerplate.js', __FILE__), ['wp-blocks', 'wp-element', 'wp-components'], true, true)
     ->boot();
