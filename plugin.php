@@ -16,7 +16,7 @@ namespace RalfHortt\WordPressClientPluginBoilerplate;
 
 use RalfHortt\Plugin\PluginFactory;
 use RalfHortt\TranslatorService\Translator;
-use Horttcore\Assets\EditorScript;
+use RalfHortt\Assets\EditorScript;
 
 // ------------------------------------------------------------------------------
 // Prevent direct file access
